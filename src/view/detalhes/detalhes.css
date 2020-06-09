@@ -1,0 +1,27 @@
+
+.box-info{
+    background-color: #614ea6;
+    color: #fff;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius:10px;
+
+}
+
+.btn-editar i{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #f21667;
+    transition: .3s ease-in;
+}
+
+.btn-editar i:hover{
+    color: #614ea6;
+}
+
+.titulo, .visualiacoes{
+    color: #614ea6;
+}
