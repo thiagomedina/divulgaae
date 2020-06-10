@@ -21,7 +21,7 @@ Esta aplicação foi desenvolvida com finalidade de estudos e possui as seguinte
 Sinta-se a vontade para forkar o repositório
 
 
-Clonar o repositório 
+Clonar o 
 ```console
 git clone <url-do-repositorio>
 ```
