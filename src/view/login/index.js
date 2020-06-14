@@ -35,8 +35,8 @@ function Login(){
 
             <form className="form-signin mx-auto">
             <div className="text-center mb-4">
-            <i class="far fa-smile-wink text-white fa-5x"></i>
-            <h1 className="h3 mb-3 font-weight-normal text-white font-weight-bold">Entrar</h1>          
+            <i class="far fa-share-square text-white fa-5x"></i>
+            <h1 className="h3 mb-3 font-weight-normal mt-2 text-white font-weight-bold">DivulgaAê</h1>          
             </div>
         
             
