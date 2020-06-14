@@ -56,14 +56,14 @@ function EventoDetalhes(props){
                 <div className="row mt-5 d-flex justify-content-around ">
                     <div className="col-md-3 col-sm-12 box-info p-3 my-2">
                         <i className="fas fa-ticket-alt fa-2x"></i>
-                        <h5><strong>Tipo</strong></h5>
-                        <span className="mt-3">{evento.tipo}</span>
+                        <h5><strong>Procurando</strong></h5>
+                        <span className="mt-3">{evento.procura}</span>
                     </div>
 
                     <div className="col-md-3 col-sm-12 box-info p-3 my-2">
-                        <i className="fas fa-comments-dollar fa-2x"></i>
-                        <h5><strong>Valor</strong></h5>
-                        <span className="mt-3">{evento.data}</span>
+                        <i className="fas fa-link fa-2x"></i>
+                        <h5><strong>Link</strong></h5>
+                        <a  target="_blank"className="mt-3  text-white"href={evento.link}>{evento.link}</a>
                     </div>
                 </div>
 

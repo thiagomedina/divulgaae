@@ -2,13 +2,15 @@ import React from 'react';
 import {Link} from 'react-router-dom';
  import './card.css';
 
-function EventoCard({id, titulo, detalhes, visualizacoes}){
+function EventoCard({id, titulo, procura,  detalhes, visualizacoes}){
 
     return(
         <div className="col-md-3 col-sm-12">
 
             <div className="card-body">
                 <h5>{titulo}</h5>
+                <p> Procurando: {procura}</p>
+                <hr />
                 <p className="card-text text-justify">
                     {detalhes}
                 </p>

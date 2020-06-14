@@ -60,7 +60,7 @@ function Home({match}){
         
 
         <div className="row p-3">
-        {evento.map(item => <EventoCard key={item.id} id={item.id}  titulo={item.titulo} detalhes={item.detalhes} visualizacoes={item.visualizacoes}   />) }
+        {evento.map(item => <EventoCard key={item.id} id={item.id} procura={item.procura} titulo={item.titulo} detalhes={item.detalhes} visualizacoes={item.visualizacoes}   />) }
 
         </div>
         </>
