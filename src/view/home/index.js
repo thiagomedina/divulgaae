@@ -10,7 +10,6 @@ import EventoCard from '../../components/card'
 function Home({ match }) {
 
     const [evento, setEvento] = useState([]);
-    const [pesquisa, setPesquisa] = useState('');
     let listaProjetos = [];
     const usuarioEmail = useSelector(state => state.usuarioEmail);
 
@@ -20,8 +19,7 @@ function Home({ match }) {
             firebase.firestore().collection('eventos').where('usuario', '==', usuarioEmail).get()
                 .then(async (resultado) => {
                     await resultado.docs.map(doc => {
-                        console.log(doc)
-                        listaProjetos.push({
+                        return listaProjetos.push({
                             id: doc.id,
                             ...doc.data()
                         })
@@ -35,7 +33,7 @@ function Home({ match }) {
                 .then(async (resultado) => {
                     await resultado.docs.map(doc => {
 
-                        listaProjetos.push({
+                      return  listaProjetos.push({
                             id: doc.id,
                             ...doc.data()
                         })
@@ -56,7 +54,7 @@ function Home({ match }) {
 
             <div>
                 
-             <img  className="size "src={img}></img>
+             <img alt="banner"  className="size "src={img}></img>
             </div>
 
             <div className="row p-3 ">

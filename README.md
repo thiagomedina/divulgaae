@@ -1,5 +1,5 @@
 ## Aplicação  DivulgaAê
-Esta é uma aplicação de divulgação de projetos open source que precisam de contribuintes ou projetos em busca de um freelancer.
+Uma aplicação para a divulgação de projetos open source que precisam de contribuição.
 
 Está sendo desenvolvida com React, Redux, Bootstrap e Firebase
 

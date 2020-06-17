@@ -15,11 +15,9 @@ function EventoCadastro(props) {
     const [link, setLink] = useState();
 
     const [detalhes, setDetalhes] = useState();
-    const [valor, setData] = useState();
     const usuarioEmail = useSelector(state => state.usuarioEmail);
 
 
-    const storage = firebase.storage();
     const db = firebase.firestore();
 
     useEffect(() => {
