@@ -3,7 +3,9 @@ Uma aplicação para a divulgação de projetos open source que precisam de cont
 
 Está sendo desenvolvida com React, Redux, Bootstrap e Firebase
 
-
+![login](https://user-images.githubusercontent.com/51326247/85181525-8d904880-b25c-11ea-8302-2728b455ed4f.PNG)
+![home](https://user-images.githubusercontent.com/51326247/85181539-941ec000-b25c-11ea-97a6-47927686d2c3.PNG)
+![detalhes](https://user-images.githubusercontent.com/51326247/85181557-9c76fb00-b25c-11ea-9cb5-7d2e5d05ee16.PNG)
 ### O que faz essa aplicacão?
 Esta aplicação foi desenvolvida com finalidade de estudos e possui as seguintes funcionalidades:
 
