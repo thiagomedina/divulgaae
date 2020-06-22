@@ -47,4 +47,4 @@ Para rodar a aplicação, execute o comando: <br>
 
 Em seguida, será aberto o endereço [http://localhost:3000](http://localhost:3000) em seu navegador.
 
-### :clap:
+# :clap:
